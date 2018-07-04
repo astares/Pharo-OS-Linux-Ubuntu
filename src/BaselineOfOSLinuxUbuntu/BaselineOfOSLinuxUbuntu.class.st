@@ -12,10 +12,7 @@ BaselineOfOSLinuxUbuntu >> baseline: spec [
 	<baseline>
 
 	spec for: #'common' do: [		 
-		spec project: 'OSUnix' with: [
-				spec
-					loads: #'all';
-					repository: 'github://astares/Pharo-OS-Unix:master/src' ].
+		self osUnix: spec.
 		spec 
 			package: #'OS-Linux-Ubuntu-Core' with: [
 				spec requires: #(#OSUnix ). ];
@@ -31,4 +28,20 @@ BaselineOfOSLinuxUbuntu >> baseline: spec [
 			group: 'Tools' with: #('OS-Linux-Ubuntu-Tools' );
 			group: 'default' with: #('Core' 'Tests' 'Tools' ). ].
 
+]
+
+{ #category : #baseline }
+BaselineOfOSLinuxUbuntu >> osUnix: spec [
+
+	spec 
+		baseline: 'OSUnix' 
+		with: [ 
+			spec
+				repository: 'github://astares/Pharo-OS-Unix:master/src';
+  				loads: 'default' ].
+
+	"spec project: '' with: [
+				spec
+					loads: #'all';
+					repository: '' ]."
 ]
