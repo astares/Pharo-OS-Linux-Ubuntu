@@ -1,4 +1,0 @@
-utilities
-openCommandLineOnWorkingDirectory
-
-	UbuntuShell newTerminal

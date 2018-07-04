@@ -1,1 +1,0 @@
-Common class for Ubuntu tools
