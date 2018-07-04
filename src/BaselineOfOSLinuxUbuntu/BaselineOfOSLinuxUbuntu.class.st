@@ -38,10 +38,5 @@ BaselineOfOSLinuxUbuntu >> osUnix: spec [
 		with: [ 
 			spec
 				repository: 'github://astares/Pharo-OS-Unix:master/src';
-  				loads: 'default' ].
-
-	"spec project: '' with: [
-				spec
-					loads: #'all';
-					repository: '' ]."
+  				loads: 'default' ]
 ]
