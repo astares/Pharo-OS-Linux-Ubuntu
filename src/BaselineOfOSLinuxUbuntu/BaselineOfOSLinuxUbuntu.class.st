@@ -37,6 +37,6 @@ BaselineOfOSLinuxUbuntu >> osUnix: spec [
 		baseline: 'OSUnix' 
 		with: [ 
 			spec
-				repository: 'github://astares/Pharo-OS-Unix:master/src';
+				repository: 'github://astares/Pharo-OS-Unix:pharo6/src';
   				loads: 'default' ]
 ]
