@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "TorstenBergmann 1/9/2015 09:30",
+	"super" : "Object",
+	"category" : "OS-Linux-Ubuntu-Tools-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Icons"
+	],
+	"instvars" : [ ],
+	"name" : "UbuntuToolIcons",
+	"type" : "normal"
+}

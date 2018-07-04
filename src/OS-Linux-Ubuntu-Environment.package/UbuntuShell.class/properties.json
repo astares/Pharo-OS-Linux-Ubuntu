@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TorstenBergmann 1/9/2015 08:34",
+	"super" : "Object",
+	"category" : "OS-Linux-Ubuntu-Environment-Shell",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UbuntuShell",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TorstenBergmann 1/9/2015 10:28",
+	"super" : "TestCase",
+	"category" : "OS-Linux-Ubuntu-Tests-Core-Common",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UbuntuSpecificTest",
+	"type" : "normal"
+}

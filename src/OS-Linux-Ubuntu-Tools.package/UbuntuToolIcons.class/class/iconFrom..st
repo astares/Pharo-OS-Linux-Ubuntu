@@ -1,0 +1,3 @@
+accessing
+iconFrom: aSymbol
+	^ self icons at: aSymbol ifAbsentPut: [ self perform: aSymbol ]
