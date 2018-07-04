@@ -34,6 +34,8 @@ UbuntuTools class >> fileBrowserMenuOn: aBuilder [
 UbuntuTools class >> menuCommandOn: aBuilder [ 
 	<worldMenu> 
 	(aBuilder item: #'OS-Ubuntu Tools')	 
+		parent: #'Tools';
+		order: 12;
 		help: 'Ubuntu Tools';
 		icon: (UbuntuToolIcons iconFrom: #ubuntuIcon);
 		withSeparatorAfter
