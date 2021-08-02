@@ -23,9 +23,10 @@ UbuntuShell class >> fileBrowser [
 { #category : #utilities }
 UbuntuShell class >> newTerminal [
 	<script>
-	 (Delay forMilliseconds: 1000) wait.  
+	(Delay forMilliseconds: 1000) wait.  
 	
-	 (Ubuntu system: 'gnome-terminal &')
+	Smalltalk os isElementaryOS ifTrue: [ ^Ubuntu system: 'io.elementary.terminal' ]. 
+	^(Ubuntu system: 'gnome-terminal &')
 	
  
 ]
@@ -42,8 +43,10 @@ UbuntuShell class >> shellOpen: aDirectoryName [
 	self shellOpen: '/home'
 	
 	"
-	
-	 ^Ubuntu system: 'nautilus "', aDirectoryName,'" &'
+	|cmd|
+	cmd := 'nautilus'.
+	Smalltalk os isElementaryOS ifTrue: [ cmd := 'io.elementary.files' ]. 
+	^Ubuntu system: cmd,' "', aDirectoryName,'" &'
 ]
 
 { #category : #utilities }
