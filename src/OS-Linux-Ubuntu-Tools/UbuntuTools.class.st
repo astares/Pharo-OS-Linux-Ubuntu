@@ -4,36 +4,36 @@ Common class for Ubuntu tools
 Class {
 	#name : #UbuntuTools,
 	#superclass : #Object,
-	#category : 'OS-Linux-Ubuntu-Tools-Base'
+	#category : #'OS-Linux-Ubuntu-Tools-Base'
 }
 
 { #category : #menu }
 UbuntuTools class >> commandLineMenuOn: aBuilder [
-	<worldMenu> 
+	<worldMenu>
 	(aBuilder item: #'Terminal')
-		parent: #'OS-Ubuntu Tools';	 
+		parent: #'OS-Ubuntu Tools';
 		help: 'Command Line';
 		order: 0;
-		action: [ self openCommandLineOnWorkingDirectory ]; 
+		action: [ self openCommandLineOnWorkingDirectory ];
 		icon: (UbuntuToolIcons iconFrom: #terminalIcon);
 		withSeparatorAfter
 ]
 
 { #category : #menu }
 UbuntuTools class >> fileBrowserMenuOn: aBuilder [
-	<worldMenu> 
+	<worldMenu>
 	(aBuilder item: #'Nautilus')
-		parent: #'OS-Ubuntu Tools';	 
+		parent: #'OS-Ubuntu Tools';
 		help: 'Open Nautilus file browser';
 		order: 1;
-		action: [ UbuntuShell fileBrowser ]; 
-		icon: (UbuntuToolIcons iconFrom: #nautilusIcon)  
+		action: [ UbuntuShell fileBrowser ];
+		icon: (UbuntuToolIcons iconFrom: #nautilusIcon)
 ]
 
 { #category : #menu }
-UbuntuTools class >> menuCommandOn: aBuilder [ 
-	<worldMenu> 
-	(aBuilder item: #'OS-Ubuntu Tools')	 
+UbuntuTools class >> menuCommandOn: aBuilder [
+	<worldMenu>
+	(aBuilder item: #'OS-Ubuntu Tools')
 		parent: #'Tools';
 		order: 12;
 		help: 'Ubuntu Tools';
@@ -49,12 +49,12 @@ UbuntuTools class >> openCommandLineOnWorkingDirectory [
 
 { #category : #menu }
 UbuntuTools class >> systemMonitorMenuOn: aBuilder [
-	<worldMenu> 
+	<worldMenu>
 	(aBuilder item: #'System Monitor')
-		parent: #'OS-Ubuntu Tools';	 
+		parent: #'OS-Ubuntu Tools';
 		help: 'Open System Monitor';
 		order: 1;
-		action: [ UbuntuShell systemMonitor ]; 
+		action: [ UbuntuShell systemMonitor ];
 		icon: (Smalltalk ui icons iconNamed: #processBrowserIcon);
 		withSeparatorAfter
 ]

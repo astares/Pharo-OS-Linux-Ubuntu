@@ -4,7 +4,7 @@ The Ubuntu OS
 Class {
 	#name : #Ubuntu,
 	#superclass : #Object,
-	#category : 'OS-Linux-Ubuntu-Core-OS'
+	#category : #'OS-Linux-Ubuntu-Core-OS'
 }
 
 { #category : #'private - utilities' }
@@ -15,19 +15,19 @@ Ubuntu class >> contentsOf: fileName [
 
 { #category : #accessing }
 Ubuntu class >> linuxVersionString [
-	
-	^self contentsOf: '/proc/version' 
+
+	^self contentsOf: '/proc/version'
 ]
 
 { #category : #primitives }
 Ubuntu class >> system: command [
-	
-	 ^self ffiCall: #(int system(char* command) ) 
+
+	 ^self ffiCall: #(int system(char* command) )
 			  module: LibC
 ]
 
 { #category : #accessing }
 Ubuntu class >> ubuntuKernelVersionSignatur [
 
-	^self contentsOf: '/proc/version_signature' 
+	^self contentsOf: '/proc/version_signature'
 ]
