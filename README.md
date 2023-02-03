@@ -1,7 +1,7 @@
 # Pharo-OS-Linux-Ubuntu
 
 ## Introduction
-This is a Pharo package written by Torsten Bergmann to get better support for Linux systems - here specifically Ubuntu into Pharo.
+This is a [Pharo](https://www.pharo.org) package written by Torsten Bergmann to get better support for Linux systems - here specifically Ubuntu into Pharo.
 
 # Quick Start
 ## Installation
