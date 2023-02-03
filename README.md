@@ -1,5 +1,12 @@
 # Pharo-OS-Linux-Ubuntu
 
+[![Unit Tests](https://github.com/astares/PPharo-OS-Linux-Ubuntu/workflows/Unit%20Tests/badge.svg?branch=main)](https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions?query=workflow%3AUnit%20Tests)
+[![Coverage Status](https://codecov.io/github/astares/Pharo-OS-Linux-Ubuntu/coverage.svg?branch=main)](https://codecov.io/gh/astares/Pharo-OS-Linux-Ubuntu/branch/main)
+
+[![Pharo 9](https://img.shields.io/badge/Pharo-9.0-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 10](https://img.shields.io/badge/Pharo-10-%23aac9ff.svg)](https://pharo.org/download)
+[![Pharo 11](https://img.shields.io/badge/Pharo-11-%23aac9ff.svg)](https://pharo.org/download)
+
 ## Introduction
 This is a [Pharo](https://www.pharo.org) package written by Torsten Bergmann to get better support for Linux systems - here specifically Ubuntu into Pharo.
 
