@@ -33,7 +33,7 @@ BaselineOfOSLinuxUbuntu >> baseline: spec [
 			group: 'Tests' with: #(#'OS-Linux-Ubuntu-Core-Tests');
 			group: 'Tools' with: #('OS-Linux-Ubuntu-Tools');
 			group: 'CI' with: #('Tests');
-			group: 'default' with: #('Core' 'Tests' 'Tools');
+			group: 'all' with: #('Core' 'Tests' 'Tools');
 			group: 'default' with: #('all') ]
 ]
 
