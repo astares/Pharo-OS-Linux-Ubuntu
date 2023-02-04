@@ -1,6 +1,6 @@
 # Pharo-OS-Linux-Ubuntu
 
-[![Unit Tests]([https://github.com/astares/Pharo-OS-Linux-Ubuntu/workflows/Build/badge.svg?branch=master]([https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions/workflows/build.yml/badge.svg?branch=master](https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions/workflows/build.yml/badge.svg?branch=master)))](https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions?query=workflow%3ABuild)
+[![Unit Tests]([https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions/workflows/build.yml/badge.svg?branch=master]([[https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions/workflows/build.yml/badge.svg?branch=master](https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions/workflows/build.yml/badge.svg?branch=master)]([https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions/workflows/build.yml/badge.svg?branch=master](https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions/workflows/build.yml/badge.svg?branch=master))))](https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions?query=workflow%3ABuild)
 [![Coverage Status](https://codecov.io/github/astares/Pharo-OS-Linux-Ubuntu/coverage.svg?branch=master)](https://codecov.io/gh/astares/Pharo-OS-Linux-Ubuntu/branch/master)
 
 [![Pharo 9](https://img.shields.io/badge/Pharo-9.0-%23aac9ff.svg)](https://pharo.org/download)
