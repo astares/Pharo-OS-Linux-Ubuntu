@@ -1,7 +1,7 @@
 # Pharo-OS-Linux-Ubuntu
 
 [![Unit Tests](https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/astares/Pharo-OS-Linux-Ubuntu/actions?query=workflow%3ABuild)
-[![Coverage Status](https://codecov.io/github/astares/Pharo-OS-Linux-Ubuntu/coverage.svg?branch=master)](https://codecov.io/gh/astares/Pharo-OS-Linux-Ubuntu/branch/master)
+[![Coverage Status](https://codecov.io/github/astares/Pharo-OS-Linux-Ubuntu/coverage.svg?branch=master)](https://codecov.io/astares/Pharo-OS-Linux-Ubuntu)
 
 [![Pharo 9](https://img.shields.io/badge/Pharo-9.0-%23aac9ff.svg)](https://pharo.org/download)
 [![Pharo 10](https://img.shields.io/badge/Pharo-10-%23aac9ff.svg)](https://pharo.org/download)
